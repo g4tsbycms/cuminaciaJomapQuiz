@@ -46,11 +46,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.certa('7,5'),
     ], 'Matemática e suas Tecnologias'), 
     
-    new QuestaoModel(207, 'Qual é a área de um triângulo com base medindo 6 cm e altura de 8 cm?', [
-        RespostaModel.errada('16 cm².'),
+    new QuestaoModel(207, ' A área de um triângulo que possui 12 cm de altura e base medindo 9 cm é?', [
+        RespostaModel.errada('66 cm².'),
         RespostaModel.errada('48 cm².'),
-        RespostaModel.errada('32 cm².'),
-        RespostaModel.certa('24 cm².'),
+        RespostaModel.errada('72 cm².'),
+        RespostaModel.certa('54 cm².'),
     ], 'Matemática e suas Tecnologias'), 
 
     new QuestaoModel(208, 'Qual é o valor aproximado de π (pi)?', [
